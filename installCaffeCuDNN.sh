@@ -21,7 +21,7 @@ sudo apt-get install libatlas-base-dev -y
 sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev -y
 # fast RCNN
 sudo apt-get install git python-pip python-skimage python-dev python-numpy python-scipy \
-     python-matplotlib python-protobuf cython python-opencv
+     python-matplotlib python-protobuf cython python-opencv python-yaml
 sudo pip install easydict
 sudo usermod -a -G video $USER
 /bin/echo -e "\e[1;32mCloning Caffe into the home directory\e[0m"
